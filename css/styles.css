@@ -2,23 +2,18 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
-  
 }
 ul, ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 a {
   text-decoration: none;
 }
-
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
-
-/* загальні стилі */
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -30,43 +25,30 @@ display: block;
 max-width: 100%;
 height: auto;
 }
-
-/* стилі header */
 .page-header {
 border-bottom:1px solid #e7e9fc;
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
   0px 1px 1px rgba(46, 47, 66, 0.16),
   0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-
 .header-container {
   display: flex;
   align-items: center;
 }
-
 .navigation {
   display: flex;
   align-items: center;
-  
 }
-
 .nav-header-item {
   display: flex;
   align-items: center;
   gap: 40px;
-
 }
-
 .nav-address-item {
   display: flex;
   align-items: center;
   gap: 40px;
-
 }
-
-
-/* logo */
-
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -83,7 +65,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
   padding-bottom: 24px;
   margin-right: 76px;
 }
-
 .hero-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -93,14 +74,10 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
   text-transform: uppercase;
   color: #2e2f42;
 }
-
-/* nav */
-
 .navigation-link.current{
   position: relative;
   color: #404bbf;
 }
-
 .navigation-link.current::after {
   content: "";
   width: 100%;
@@ -111,7 +88,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
   background-color:#404bbf;
   border-radius: 2px;
 }
-
 .navigation-link {
   font-weight: 500;
   font-size: 16px;
@@ -123,17 +99,14 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
   padding-bottom: 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .navigation-link:hover,
 .navigation-link:focus {
   color: #404bbf;
 }
-
 .contacts {
   font-style: normal;
   margin-left: auto ;
 }
-
 .contacts-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -146,14 +119,10 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
   padding-bottom: 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
-
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
 }
-
-/* hero section */
-
 .hero-section {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -165,7 +134,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
   background-size: cover;
   background-position: center;
 }
-
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -177,11 +145,9 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
   max-width: 496px;
   padding-bottom: 48px;
 }
-
 button {
   font-family: inherit;
 }
-
 .hero-btn {
   font-weight: 500;
   font-size: 16px;
@@ -197,19 +163,11 @@ button {
   min-width: 169px;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
-
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
-
-
-
-
-/* advaantages */
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -222,7 +180,6 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .advantages-title {
   font-weight: 700;
   font-size: 36px;
@@ -231,7 +188,6 @@ button {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-
 .icons-adventages {
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
@@ -244,7 +200,6 @@ button {
   gap: 24px;
   margin-bottom: 8px;
 }
-
 .advantages-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -253,17 +208,14 @@ button {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-
 .advantages-list {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-
 .advantages-list-team {
   width: calc((100% - 72px) / 4);
 }
-
 .text {
   font-weight: 400;
   font-size: 16px;
@@ -271,16 +223,11 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-
-/* team */
-
 .team {
   background-color: #f4f4fd;
   max-width: 1440px;
   margin: 0 auto;
 }
-
 .title-team {
   font-weight: 700;
   font-size: 36px;
@@ -291,27 +238,22 @@ button {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-
 .team-card {
   padding: 32px 0;
   text-align: center;
   margin-bottom: 8px;
 }
-
 .team-list {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-
-
 .icons-list-contacts {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 24px;
 }
-
 .social-icon {
   display: flex;
   align-items: center;
@@ -319,7 +261,6 @@ button {
   width: 40px;
   height: 40px;
 }
-
 .icons-links {
   display: flex;
   align-items: center;
@@ -343,9 +284,6 @@ button {
 .icons-links:focus {
 background-color: #404bbf;
 }
-
-
-
 .characteristic-team {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
@@ -354,7 +292,6 @@ background-color: #404bbf;
   0 1px 1px 0 rgba(46, 47, 66, 0.16),
   0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -373,9 +310,6 @@ background-color: #404bbf;
   color: #434455;
   text-align: center;
 }
-
-
-/* portfolio */
 .title-portfolio {
   font-weight: 700;
   font-size: 36px;
@@ -386,7 +320,6 @@ background-color: #404bbf;
   color: #2e2f42;
   margin-bottom: 72px;
 }
-
 .portfolio-list {
   display: flex;
   align-items: center;
@@ -394,12 +327,10 @@ background-color: #404bbf;
   gap: 24px;
   row-gap: 48px;
 }
-
 .portfolio-item-list {
 width: calc((100% - 72) / 3);
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .portfolio-item-list:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -421,9 +352,6 @@ border-left: 1px solid #e7e9fc;
 border-right: 1px solid #e7e9fc;
 padding: 32px 16px;
 }
-
-
-
 .desc-portfolio {
   font-weight: 400;
   font-size: 16px;
@@ -465,9 +393,6 @@ padding: 32px 16px;
       0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-
-
-/* footer */
 .footer {
   background-color: #2e2f42;
   margin: 0 auto;
@@ -569,8 +494,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer-form-send {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
   gap: 24px;
 }
 
@@ -596,13 +519,6 @@ flex-direction: column;
 input::placeholder {
   color: #ffffff;
 }
-
-/* .form-input:active {
-  border: none;
-} */
-
-
-
 .footer-button {
   border-radius: 4px;
   min-width: 165px;
@@ -635,9 +551,6 @@ input::placeholder {
   fill: #fff;
 }
 
-
-
-/* modal */
 .backdrop {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
